@@ -1,0 +1,87 @@
+body{
+    padding: 0px 20%;
+    display: flex;
+    justify-content: center;
+}
+.marco{
+    width: 80%;
+    border: 5px solid #657fa0;
+    border-radius: 2%;
+    margin: 2%;
+    padding: 2%;
+    position: relative;
+}
+p{
+    color: black;
+    font: size 12px;
+}
+h1{
+    color: rgb(197, 206, 227);
+}
+h2{
+    color:rgb(129, 145, 241);
+    font-size: 18px;
+}
+span.cursiva{
+    font-style: italic;
+}
+span.cursiva1{
+    background-color: white;
+    color: black;
+    border: 2px solid #657fa0;
+}
+span.cursiva1:hover{
+    background-color: #657fa0;
+    color: white;   
+}
+.expbtn {
+    background-color: #657fa0;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.exp {
+    position: relative;
+    display: inline-block;
+}
+  
+.exp-content {
+    display: none;
+    position: inherit;
+    background-color: #f9f9f9;
+    min-width: 340px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.exp-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.exp-content a:hover {
+    background-color: #f1f1f1
+}  
+.exp:hover .exp-content {
+    display: block;
+}
+  
+  .exp:hover .expbtn {
+    background-color: #657fa0;
+}
+img{
+    border-radius: 5%;
+    transition: transform .2s;
+    position: relative;
+    margin: 2px 2px 0px 0px;
+}
+img:hover{
+    -ms-transform: scale(1.5);
+    transform: scale(2.5);
+}
+ul.a{
+    list-style:circle;
+}
