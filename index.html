@@ -1,26 +1,48 @@
-<html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lady Sylvanas</title>
+</head>
 <body>
-	<head>
-	Lady Sylvanas
-	</head>
-	<img src="img/sylvanas.png" alt="Lady Sylvanas" width="80" height="100" style="float:right">
-	<h2>Datos personales</h2>
-		<p>Direccion: Orgrimmar 2, 2D</p>
-		<p>Teléfono: 452341-5632</p>
-		<p>Email: latiraflechaschunga@protonmail.com</p>
-	<h2>Experiencia Profesional</h2>
-		<ul>
-			<li>Líder de la horda - 5 años</li>
-			<li>Me invento cualquier cosa para otra línea</li>
-			<li>Delegada de facción - 2 años</li>
-		</ul>
-	<h2>Datos académicos</h2>
-		<ul>
-			<li>Universidad - Campo de Batalla</li>
-			<li>Bachillerato - IES Azshara</li>
-		</ul>
-	<h2>Otros datos de interés</h2>
-		<p>Emocionalmente inestable, carnet de hipogrifos y carrozas B3</p>
-	
+    <div class="marco">
+        <header>
+        <h1>Lady Sylvanas</h1>
+        </header>
+        <section>
+	        <h2>Datos personales</h2>
+                <img src="img/sylvanas.png" alt="Lady Sylvanas" width="80" height="110" style="float:right">
+	        	<p>Orgrimmar 2, 2D</p>
+	    	    <p>Teléfono: 452341-5632</p>
+                <!--Prueba de cometario interno-->
+	    	    <p>Email: <span class="cursiva1">latiraflechaschunga@protonmail.com</span></p>
+	        <div class="exp">
+             <button class="expbtn">Experiencia profesional</button>
+                <div class="exp-content">
+                    <ul>
+                        <li>Líder de la horda - 5 años</li>
+                        <li>Me invento cualquier cosa para otra línea</li>
+                        <li>Delegada de facción - 2 años</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section>
+        	<h2>Datos académicos</h2>
+	    	    <ul class="a">
+	    		    <li>Universidad - Campo de Batalla</li>
+	    		    <li>Bachillerato - IES Durotan</li>
+	    	    </ul>
+        </section>
+        <section>
+	        <h2>Otros datos de interés</h2>
+	            <p>Emocionalmente inestable, carnet de hipogrifos y carrozas B3.</p>
+                <p>Trabajo en equipo, pero me gusta ir a mi bola.</p>
+        </section>
+    </div>
 </body>
 </html>
