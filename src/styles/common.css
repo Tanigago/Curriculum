@@ -1,0 +1,8 @@
+body{
+    font-family: Cambria;
+    padding: 0px 20%;
+    display: flex;
+    justify-content: center;
+    background-image: url("/src/img/etpalace.jpg");
+    background-size: 100%;
+}
