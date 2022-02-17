@@ -1,0 +1,13 @@
+.vertical-menu{
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    order: 1;
+}
+.vertical-menu a{
+    background-color: #929fb3;
+    color: aliceblue;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
