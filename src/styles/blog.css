@@ -1,8 +1,18 @@
+main{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+nav.vertical{
+    display: flex;
+    justify-content: flex-end;
+}
 .vertical-menu{
-    width: 100px;
+    padding-top: 20px;
+    width: 110px;
     display: flex;
     flex-direction: column;
-    order: 1;
 }
 .vertical-menu a{
     background-color: #929fb3;
@@ -10,4 +20,16 @@
     display: block;
     padding: 12px;
     text-decoration: none;
+}
+.vertical-menu a:hover{
+    background-color: #afbaca;
+}
+article{
+    flex-direction: column;
+}
+section{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    order: 2;
 }
